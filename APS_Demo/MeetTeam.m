@@ -176,11 +176,11 @@
     [teamBio setFont:[UIFont fontWithName:fontName size:12.0]];
     [emailLabel setFont:[UIFont fontWithName:fontName size:15.0]];
     
-    teamName.text = [NSString stringWithFormat:@"Nick Snelson"];
+    teamName.text = [NSString stringWithFormat:@"NS"];
     teamTitle.text = [NSString stringWithFormat:@"Managing Director"];
-    teamBio.text = [NSString stringWithFormat:@"Nick oversees the strategic direction of APS Group as well as the day to day management of each of the key divisions within the group. He maintains direct responsibility for major accounts and for the overall business performance of the company.\n\nAppointed MD in 1992, Nick has overseen the transformation of the business from printing company to the organisation it is today, a company with a clear focus on the provision of print management services and business process outsourcing solutions to major UK customers.\n\nNick has instilled a strong corporate culture within the business.  He has successfully combined a staunchly ethical approach to interfacing with suppliers and stakeholders, with a commitment to environmental responsibility and a stated intent to always operate openly and honestly and in the best interests of customers.\n\nThis innovative approach continues to deliver major benefits for customers, suppliers, employees and the wider community."];
+    teamBio.text = [NSString stringWithFormat:@"blurb."];
     
-    emailLabel.text = [NSString stringWithFormat:@"Send email to nick.snelson@apsgroup.co.uk"];
+    emailLabel.text = [NSString stringWithFormat:@"Send email to email1@domain.com"];
     teamPortrait.image = [UIImage imageNamed:@"portrait87.png"];
     emailButton.tag = 101;
     
