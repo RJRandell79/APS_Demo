@@ -73,7 +73,7 @@
         [ukMapView addAnnotation:scotlandPoint];
         [ukMapView setRegion:scotlandRegion animated:YES];    
         
-        ukTextView.text = [NSString stringWithFormat:@" APS Group Scotland\n 21 Tennant Street\n Edinburgh\n City of Edinburgh\n EH6 5NA\n\n Web: www.apsgroup.co.uk\n Tel: +44 (0) 131 629 9966"];
+        ukTextView.text = [NSString stringWithFormat:@" APS Group Scotland\n 21 Tennant Street\n Edinburgh\n City of Edinburgh\n EH6 5NA\n\n Web: www.apsgroup.co.uk"];
         
         double scotlandLat = ukMapView.userLocation.location.coordinate.latitude;
         double scotlandLong = ukMapView.userLocation.location.coordinate.longitude;
